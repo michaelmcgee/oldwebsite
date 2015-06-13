@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Future Founders</title>
+		<style>
+			h1 {
+				color: #3366ff;
+				background-color: lightblue;
+				text-align: center;
+			}
+
+			strong {
+				color: red;
+			}
+
+			.important-item {
+				color: red;
+				background-color: salmon;
+			}
+
+			.container {
+				background-color: lightgray;
+				width: 300px;
+				height: 400px;
+				border: 5px solid black;
+				padding: 10px;
+				margin: 10px;
+
+			}
+
+		</style>
+	</head>
+	<body>
+		<h1>hello</h1>
+		
+		<div class="container"><p>this is a paragraph</p>
+			<! -- this is a list below -->
+			<ul>
+				<li>item 1</li>
+				<li class="important-item">item 2</li>
+				<li>item 3</li>
+				<li><a href="http://www.nba.com">NBA</a></li>
+			</ul>
+			<img src="mike-nba-site/images/dellagod.jpg" width="150px" height="100px">
+		</div>
+	</body>
+</html>
